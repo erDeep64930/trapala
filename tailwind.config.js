@@ -8,14 +8,12 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        textColor: "#0A033C",
-        offerColor: "#FF6652",
-        paraColor: "#5D5A6F",
-        activeColor: "#9C4DF4",
-        backColor: "#3E4756",
-        whiteColor: "#fff",
-        lightWhiteColor: "#F2E5FF",
-        starColor: "#FFC107"
+        deepBlue:"#052a45",
+        deepGray:"#637177",
+        deepPink:"#fc8e76",
+        lightPink:"#fda491",
+        lightGray:"#031d30",
+        lightBlue:"#fdb9aa",
       }
     }
   },
