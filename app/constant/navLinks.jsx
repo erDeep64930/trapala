@@ -12,15 +12,8 @@ export const navLinks = [
     {
         id:3,
         name:"Courses",
-        dropdown: [
-            { name: "GS-1", href: "#" },
-            { name: "GS-2", href: "#" },
-            { name: "GS-3", href: "#" },
-            { name: "GS-4", href: "#" },
-            { name: "GS-5", href: "#" },
-            { name: "CSAT", href: "#" },
-            
-          ],
+        href:"/courses"
+      
     },
     {
         id:4,
