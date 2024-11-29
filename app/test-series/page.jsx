@@ -1,12 +1,12 @@
+import Layout from "../components/layout/Layout";
 import TestSeriesPage from "../templates/TestSeriesPage/page";
-
 
 const page = () => {
   return (
-    <div>
+    <Layout>
       <TestSeriesPage />
-    </div>
+    </Layout>
   );
-}
+};
 
 export default page;
