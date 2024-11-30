@@ -1,4 +1,5 @@
 
+import Heading from "@/app/shared/Heading";
 import Wrapper from "@/app/shared/Wrapper";
 import WrapperSection from "@/app/shared/WrapperSection";
 import Image from "next/image";
@@ -20,12 +21,12 @@ const BannerSection = () => {
             >
               Never Stop Learning
             </p>
-            <h1
+            <Heading heading="Start Learning With Our Experts, Anywhere, Anytime with Trapala"
              
-              className="font-bold text-slate-950 text-lg md:text-5xl py-3 md:leading-[75px]"
-            >
-              Grow up your skills by online courses with Trapala.{" "}
-            </h1>
+             
+            />
+            
+            
             <p  className="font-semibold text-gray-500 leading-9">
               Find your perfect tutor. Watch and Learn lessons from 200+ of the
               world leading thinkers and experts.{" "}

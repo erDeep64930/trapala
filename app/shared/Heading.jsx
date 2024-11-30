@@ -4,7 +4,7 @@ const Heading = ({children,heading}) => {
   return (
     <div >
 
-      <h2 className='text:2xl md:text-4xl text-slate-900 font-bold leading-10 text-center mt-3 mb-3'>{heading}</h2>
+      <h2  className="text-4xl font-bold leading-snug tracking-tight text-gray-800 lg:text-4xl lg:leading-tight xl:text-6xl xl:leading-tight">{heading}</h2>
       
     </div>
   );

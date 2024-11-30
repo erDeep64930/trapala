@@ -5,6 +5,7 @@ import BannerSection from "./BannerSection/BannerSection";
 import VideoSection from "./VideoSection/VideoSection";
 import WhyChooseUs from "./WhyChooseUs/WhyChooseUs";
 import SubjectCard from "./SubjectCard/SubjectCard";
+import BrightFuture from "./BrightFuture/BrightFuture";
 
 const HomePage = () => {
   return (
@@ -13,6 +14,7 @@ const HomePage = () => {
       <VideoSection />
       <WhyChooseUs />
       <SubjectCard />
+      <BrightFuture />
     </Layout>
   );
 };
