@@ -1,17 +1,14 @@
-import Layout from '@/app/components/layout/Layout';
-import React from 'react';
-import HeroSection from './Hero/HeroSection';
+import Layout from "@/app/components/layout/Layout";
+import React from "react";
 
-
-
+import BannerSection from "./BannerSection/BannerSection";
 
 const HomePage = () => {
   return (
     <Layout>
-     <HeroSection />
-    
+      <BannerSection />
     </Layout>
   );
-}
+};
 
 export default HomePage;

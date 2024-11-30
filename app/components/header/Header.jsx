@@ -37,7 +37,7 @@ const Header = () => {
   }, [isOpen]);
 
   return (
-    <nav className="bg-white text-deepGray hover:text-deepBlue fixed w-full z-50 shadow-md ">
+    <nav className="relative bg-white text-slate-950   w-full z-50 shadow-md ">
       <div className="max-w-7xl mx-auto flex items-center justify-between px-4 py-3">
         {/* Logo */}
         <Logo />
@@ -45,7 +45,7 @@ const Header = () => {
         {/* Hamburger Icon */}
         <button
           onClick={toggleMenu}
-          className="lg:hidden text-deepGray text-2xl focus:outline-none"
+          className="lg:hidden text-slate-950 text-2xl focus:outline-none"
         >
           {isOpen ? <FaTimes /> : <FaBars />}
         </button>
@@ -53,7 +53,7 @@ const Header = () => {
         {/* Nav Links */}
         <div
           ref={navRef}
-          className={`lg:flex lg:items-center lg:static absolute bg-white  top-20   w-full lg:w-auto transition-all duration-300 ease-in-out text-center ${
+          className={`lg:flex lg:items-center lg:static absolute bg-white  top-full   w-full lg:w-auto transition-all duration-300 ease-in-out text-center ${
             isOpen || linksVisible
               ? "max-h-screen "
               : "lg:max-h-6 max-h-0 overflow-hidden "
@@ -61,7 +61,7 @@ const Header = () => {
         >
           <ul className="flex flex-col lg:flex-row lg:space-x-6 p-4 lg:p-0">
             {navLinks.map((link) => (
-              <li key={link.id} className="hover:text-deepBlue text-deepGray hover:border-b hover:border-deepPink text-md">
+              <li key={link.id} className="hover:text-slate-600 text-slate-gray-950 hover:border-b hover:border-red-400 text-md font-semibold">
                 <Link href={link.href} className="block py-2 lg:py-0">
                   {link.name}
                 </Link>
