@@ -12,17 +12,17 @@ const BannerSection = () => {
     <Wrapper>
       <WrapperSection>
         {/* left */}
-        <div className="flex-1">
+        <div className="flex-1 p-6 space-y-4 ">
           <div className="flex-col p-2">
             <p
               
-              className="bg-white text-deepPink inline-block px-5 py-3 rounded-lg font-semibold text-red-400 hover:text-red-500 shadow-md border border-red-100"
+              className="bg-white items-center text-deepPink inline-block px-5 py-3 rounded-lg font-semibold text-red-400 hover:text-red-500 shadow-md border border-red-100"
             >
               Never Stop Learning
             </p>
             <h1
              
-              className="font-bold text-slate-950 text-5xl py-3 leading-[75px]"
+              className="font-bold text-slate-950 text-lg md:text-5xl py-3 md:leading-[75px]"
             >
               Grow up your skills by online courses with Trapala.{" "}
             </h1>
@@ -31,8 +31,8 @@ const BannerSection = () => {
               world leading thinkers and experts.{" "}
             </p>
             {/* this is for search course form */}
-            <div className="flex bg-white border border-gray-500 rounded-lg flex-row items-center space-x-2 mt-6 w-full px-5 py-1">
-              <select className="border-r border-gray-600 pr-4">
+            <div className="flex flex-col md:flex-row md:bg-white md:border md:border-gray-500 rounded-lg  items-center md:space-x-2 space-y-4 md:space-y-0 mt-6 w-full px-5 py-1">
+              <select className="md:border-r md:border-gray-600 pr-4 bg-pink-100 lg:bg-transparent md:bg-none px-5 md:px-0 py-2 md:py-0 rounded-lg mr-4 ">
                 <option>UPSC</option>
                 <option>SSC</option>
                 <option>RAILWAY</option>
@@ -41,7 +41,7 @@ const BannerSection = () => {
               <input
                 type="text"
                 placeholder="type subject name.."
-                className="pl-4 ml-4 px-3 py-1 flex-1"
+                className="pl-4 ml-4 px-3 py-1 flex-1 border border-gray-100 rounded-md"
               />
 
               <button className="flex items-center space-x-2 hover:bg-slate-800 bg-slate-950 text-white px-5 py-3 rounded-md flex-1 text-center">
@@ -53,7 +53,7 @@ const BannerSection = () => {
         </div>
 
         {/* right */}
-        <div className="flex-1 relative">
+        <div className="flex-1 relative ">
           <Image
             
             src="/bird.png"
@@ -64,7 +64,7 @@ const BannerSection = () => {
           />
           <h1
             
-            className="absolute bottom-16 italic text-4xl bg-gradient-to-r from-pink-500 to-red-500 bg-clip-text left-0 right-0 text-center font-bold text-transparent"
+            className="absolute bottom-4 md:bottom-16 text-lg italic md:text-4xl bg-gradient-to-r from-slate-500 to-slate-900 bg-clip-text left-0 right-0 text-center font-bold text-transparent"
           >
             The best view always comes from the top.
           </h1>
