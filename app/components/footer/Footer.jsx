@@ -29,9 +29,9 @@ const Footer = () => {
         </div>
         {/* contact */}
         <div className="flex flex-col space-y-2 my-4 md:my-0 lg:-my-4 ">
-          <p className="text-2xl font-semibold text-center  ">Contact Me</p>
+          <p className="text-2xl font-semibold  ">Contact Me</p>
 
-          <div className="flex justify-between items-center p-2 ">
+          <div className="flex items-center p-2 space-x-4">
             <FaPhone />
             <p>+91-6545358725</p>
 
@@ -39,7 +39,7 @@ const Footer = () => {
 
           {/*  */}
 
-          <div className="flex justify-between items-center p-2 text-pri">
+          <div className="flex space-x-4  items-center p-2 ">
           <SiGmail />
             <p>info@trapala.com</p>
 
